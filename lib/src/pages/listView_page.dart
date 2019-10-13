@@ -45,7 +45,7 @@ class _ListViewPageState extends State<ListViewPage> {
       appBar: AppBar(
         title: Text('List View'),
       ),
-      body: Stack(
+      body: Stack( //APILAR VARIOS COMPONENTES
         children: <Widget>[
           _crearLista(),
           _crearLoading()
